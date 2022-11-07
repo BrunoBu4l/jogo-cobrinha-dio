@@ -1,0 +1,23 @@
+body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aqua;
+    background-color: #1215d3;
+}
+
+.alert{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    background-color: #fcf8e3;
+    flex-direction: column;
+}
+
+.alert h2{
+    text-decoration: underline;
+    padding: 20px;
+}
