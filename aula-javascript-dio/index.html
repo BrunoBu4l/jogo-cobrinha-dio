@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/teste.js"></script> -->
+    <title>Minha página</title>
+</head>
+<!-- <body onload="load()"> -->
+    <body>
+     <div>
+        <h1>Minha 1ª página</h1>
+        <button type="button" onclick="clicou()">Clique aqui</button>
+        <p id="agradecimento"></p>
+        <button type="button" onclick="nextpage()">Ir para WallCoders</button>
+
+        <p id="mousemove" onmouseover="passhere()" onmouseout="passback()">Passe o mouse por aqui!</p>
+    
+        <!--Para atribuir a mesma função para mais elementos use a forma abaixo-->
+        <!--<p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse por aqui!</p>
+        <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse por aqui!</p>
+        <p id="mousemove3" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse por aqui!</p>
+
+        <select onchange="funcaoChange(this)">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+    </div> -->
+    <div>
+        <h2>Teste checkbox</h2>
+        <button type="button" id="mudar">Alterar</button>
+        <p id="teste1">Ler</p>
+       
+    </div>
+    <button type="button" id="ep1" onclick="clique()">Ep1</button>
+    <iframe id="ep" width="1280" height="720" src="//ok.ru/videoembed/1629469215301" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+    <script>
+        $("#ep").hide();
+        $('button').click(function(){
+            $("#ep").show()
+        })
+    </script>
+    <script type="text/javascript" src="js/teste.js"></script>
+</body>
+</html>
